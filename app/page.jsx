@@ -9,7 +9,7 @@ export default function Home() {
   const [isPlay, setIsPlay] = useState(false);
 
   const playAudio = () => {
-    const audio = new Audio("/audio/audio.mp3");
+    const audio = new Audio("/audio/ashes.mp3");
     audio.loop = true; // Mengatur audio untuk looping
     audio.play().catch(error => {
       console.error('Error playing audio:', error);
