@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react'
-import store from "@/lib/store.json";
+import { store } from "@/lib/store";
 import { useLoader } from '@react-three/fiber';
 import * as THREE from 'three'
 import Dome from '@/components/component/Dome';
