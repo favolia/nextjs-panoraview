@@ -6,6 +6,7 @@ import * as THREE from 'three'
 import Dome from '@/components/component/Dome';
 
 const Portals = () => {
+
     const [which, set] = useState(0);
     const { link, ...props } = store[which]
     const maps = useLoader(THREE.TextureLoader, store.map(entry => entry.url))
