@@ -1,0 +1,24 @@
+[
+    {
+        "name": "outside",
+        "color": "lightpink",
+        "position": [
+            10,
+            0,
+            -15
+        ],
+        "url": "/images/overworld.jpg",
+        "link": 1
+    },
+    {
+        "name": "inside",
+        "color": "lightblue",
+        "position": [
+            15,
+            0,
+            0
+        ],
+        "url": "/images/underworld.jpg",
+        "link": 0
+    }
+]
